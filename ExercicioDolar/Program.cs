@@ -14,7 +14,7 @@ namespace ExercicioDolar
             double quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             double result = ConversorDeMoedas.DolarParaReal(quantia, cotacao);
-            Console.WriteLine("Valor a ser pago em reais = R$ " + result.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Valor a ser pago = R$ " + result.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
